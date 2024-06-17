@@ -1,0 +1,14 @@
+#info{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: rgb(189, 233, 249);
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 20px;
+}
+#info #pic{
+    margin: 0 1rem;
+}

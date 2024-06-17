@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './Home/Home.jsx'
 import Quotes from './Quotes/Quotes.jsx'
 import Resturant from './Resturant/Resturant.jsx'
+import Contact from './Contact/Contact.jsx'
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <Route path ='/' element={<Home/>}></Route>
         <Route path ='/quotes' element={<Quotes/>}></Route>
         <Route path ='/resturants'element={<Resturant/>}></Route>
-        
+        <Route path = '/contact' element={<Contact/>}></Route>
       </Routes>
       <Footer/>
     </>

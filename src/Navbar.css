@@ -59,7 +59,7 @@
 
 
 @media screen and (max-width:718px) {
-    #navbar ul{
+    #navbar #links{
         display: none;
     }
     #hamburger{
