@@ -1,0 +1,45 @@
+#restroCards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+#restroCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 26rem;
+    /* border: 1px solid black; */
+    line-height: 1.6;
+    box-shadow: 5px 5px 10px black;
+}
+#restroCard img{
+  height: 15rem;
+  padding: 1rem;
+  /* width: 25rem; */
+}
+#restroCard #inner{
+    padding: 0.5rem 1rem;
+}
+#restroCard #type{
+  background-color: rgb(202, 233, 246);
+  padding: 0.5rem 1rem;
+}
+#type p{
+    color: green;
+}
+#type #menu{
+    color: blue;
+}
+#rating{
+    display: flex;
+}
+#restroCard img:hover{
+    transform: scale(1.05);
+}
+
+#star{
+    font-size: 1.6rem;
+    filter: drop-shadow(4px 3px 3px rgb(22, 22, 22));
+}

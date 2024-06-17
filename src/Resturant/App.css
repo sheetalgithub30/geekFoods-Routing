@@ -1,0 +1,14 @@
+#top{
+  margin:7rem 2rem 4rem 4rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+#top input{
+  padding: 0.4em;
+  font-size: 1rem;
+}
+#main{
+  margin-bottom: 4rem;
+}

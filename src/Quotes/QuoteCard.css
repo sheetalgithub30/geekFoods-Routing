@@ -1,0 +1,26 @@
+#quotecard{
+    margin-top:5rem;
+}
+#quote-single-card{
+    margin: 7rem;
+    padding: 2.5rem;
+    text-align: center;
+    color: white;
+    background-color: rgb(11, 30, 53);
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px rgb(24, 59, 102);;
+}
+
+#quote-single-card h2{
+    font-weight: 900;
+    font-size: 1.7rem;
+}
+#quote-single-card h4{
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+
+#quote-single-card:hover{
+    background-color: rgb(32, 56, 85);
+    box-shadow: 4px 4px 10px rgb(11, 30, 53);
+}
