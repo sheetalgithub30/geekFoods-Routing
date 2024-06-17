@@ -1,0 +1,11 @@
+#foodCard{
+    margin: 1rem;
+    padding: 1rem;
+    width: 33%;
+    border-radius: 20px;
+    box-shadow: 2px 3px 10px black;
+    /* height: 70vh; */
+}
+#foodCard span{
+    font-size: 2rem;
+}
