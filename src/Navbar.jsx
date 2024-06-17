@@ -13,6 +13,7 @@ function Navbar() {
               <Link to='/'>Home</Link>
               <Link to='/quotes'>Quotes</Link>
               <Link to ='/resturants'>Resturants</Link>
+              <Link to='/foods'>Foods</Link>
               <Link to ='/contact'>Contact</Link>
          </div>
           <button>Get started</button>
